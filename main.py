@@ -3,7 +3,7 @@ import requests
 import datetime
 
 def ping_backend():
-    url = "https://codenection-backend-qdqp.onrender.com" #replace this url with your backend url & endpoint
+    url = "https://codenection-backend-qdqp.onrender.com/weekly_patterns" #replace this url with your backend url & endpoint
     
     try:
         print(f"{datetime.datetime.now()}: Pinging {url}")
